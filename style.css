@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Delius&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+  --branco: #FFF2F2; 
+  --azul-claro: #A9B5DF; 
+  --azul-fote: #7886C7; 
+  --azul-forte: #2D336B; 
+  --azul-forte: #0D1164; 
+  --texto: "Delius", cursive;
+  --titulo: "Sour Gummy", sans-serif;
+}
+
+body {
+    background-color: var(--branco);
+    font-family: var(--texto);
+}
