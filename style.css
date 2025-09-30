@@ -13,4 +13,59 @@
 body {
     background-color: var(--branco);
     font-family: var(--texto);
+    margin: 0;
+}
+
+header{
+ background-color: var(--azul-forte);
+ display: flex; 
+ justify-content: space-around;
+ padding: 10px ;
+ align-items: center;
+}
+
+.img-logo{
+   width: 15%;
+}
+ 
+.menu{
+ display:  flex;
+ list-style: none;
+ gap: 30px;
+ color: var(--azul-claro);
+ font-size: 20px;
+ font-family: var(--titulo);
+ text-transform: uppercase;
+}
+
+.menu a{
+ text-decoration: none;
+ color: var(--azul-claro)
+}
+
+.menu a:hover{
+ color: var(--azul-fote);
+ transition: 0.5s;
+}
+
+.capa img{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.capa img{
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover;
+}
+
+.apresentacao{ 
+  font-family: var(--titulo)
+  text-align: center; 
+  margin: 40px 0;
 }
