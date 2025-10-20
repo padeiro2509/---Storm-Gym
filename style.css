@@ -101,7 +101,7 @@ header{
 .sobre-img img{
   width: 50%;
   border-radius: 0px 20px 0 20px;
-  box-shadow: 3px 3px 10px #7886C7;
+  box-shadow: 3px 3px 10px #000000;
 }
 
 .sobre h2{
